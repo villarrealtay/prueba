@@ -1,0 +1,374 @@
+/*MAQUETACION SING IN */
+
+.signContainer{
+    width: 80vh;
+    background: #b5c7da;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'Orbitron';
+    text-align: center;
+    color: rgb(0, 0, 0);
+    box-shadow: 7px 13px 37px #000;
+    background-image: url("https://image.freepik.com/vector-gratis/hombre-negocios-casa-bienes-raices-ubicacion-mapa_24640-35689.jpg"); 
+}
+
+.titleContainer{
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.title{
+    font-size: 60px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.inputs{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 35vh;
+    margin: 0 auto;
+    width: 100%;
+    background: #81b8f0;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #aae7ff;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
+    opacity: 0.9; 
+    border:none;
+}
+
+.account{
+    width: 100%;
+    background: #a5cdf5;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    font-family: 'Titillium Web', sans-serif;
+    border: 1px solid #aae7ff;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    opacity: 0.8;
+    border:none;
+}
+
+.password{
+    width: 100%;
+    background: #a5cdf5;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #aae7ff;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    opacity: 0.8;
+    border:none;
+}
+
+
+.account:focus , .pass:hover, .password:focus, .sen:focus,.send:focus, .mail:focus,.passwordCheck:focus,.name:focus,.surname:focus,.pic:focus,.country:focus{
+    outline: none;
+}
+
+.account:hover , .pass:hover, .password:hover ,.accoun:hover, .sen:hover,.send:focus, .mail:hover,.passwordCheck:hover,.name:hover,.surname:hover,.pic:hover,.country:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+     transition-duration: 0.3s;
+   
+}
+
+
+
+
+.send{
+    width: 100%;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+    outline: none;
+    font-size:2vh ;
+    letter-spacing: 5px;
+}
+/*MAQUETACION SING IN */
+
+
+
+/*-----------------------------------------------------------------------------*/
+
+
+
+
+
+
+/*MAQUETACION SING UP */
+
+.signContainers{
+    width: 80vh;
+    background: #b5c7da;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'Orbitron';
+    text-align: center;
+    color: rgb(0, 0, 0);
+    box-shadow: 7px 13px 37px #000;
+    background-image: url("https://www.namp.com.br/wp-content/uploads/2015/07/Registro-Imagem-1-01.png"); 
+}
+
+.titleContainers{
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.titles{
+    font-size: 60px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.input{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 35vh;
+    margin: 0 auto;
+    width: 100%;
+    background: #e9e6b8;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #aae7ff;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
+    opacity: 0.9;  
+    border:none;
+}
+
+
+.mail{
+    width: 100%;
+    background: #fefbff;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #ceeffc;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    opacity: 0.8;
+    border:none;
+}
+
+.passwordCheck{
+    width: 100%;
+    background: #fefbff;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #aae7ff;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    opacity: 0.8;
+    border:none;
+}
+
+.name{
+    width: 100%;
+    background: #fefbff;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #aae7ff;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    opacity: 0.8;
+    border:none;
+}
+
+
+.surname{
+    width: 100%;
+    background: #fefbff;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #aae7ff;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    opacity: 0.8;
+    border:none;
+}
+
+.pic{
+    width: 100%;
+    background: #fefbff;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #aae7ff;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    opacity: 0.8;
+    border:none;
+}
+
+.country{
+    width: 100%;
+    background: #fefbff;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #aae7ff;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    opacity: 0.8;
+    border:none;
+}
+.accoun{
+    width: 100%;
+    background: #fefbff;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #aae7ff;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    opacity: 0.8;
+    border:none;
+}
+
+.pass{
+    width: 100%;
+    background: #fefbff;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #aae7ff;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    opacity: 0.8;
+    border:none;
+}
+.send{
+    width: 100%;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+    outline: none;
+    font-size:2vh ;
+    letter-spacing: 5px;
+}
+
+
+/*MAQUETACION SING UP */
+
+
+.centered-elements {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+  }
+  
+  .content {
+    background-color: #434343;
+  }
+  
+  .btn {
+    position: relative;
+    display: block;
+    height: 77px;
+    width: 300px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    background-color: transparent;
+    color: #fff;
+    font-size: 18px;
+    overflow: hidden;
+    transition: all 500ms ease;
+    border: 2px solid #20e2d7;
+    margin-bottom: 40px;
+    z-index: 0;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  .btn::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: auto;
+    background-color: #20e2d7;
+    transition: all 500ms ease;
+    z-index: -1;
+  }
+  .btn--1::before {
+    width: 0;
+    height: 100%;
+  }
+  .btn--1:hover {
+    color: #434343;
+  }
+  .btn--1:hover::before {
+    width: 100%;
+  }
+  .btn--2:hover {
+    background-color: #20e2d7;
+    box-shadow: 0 0 10px #20e2d7, 0 0 20px #20e2d7, 0 0 20px #20e2d7;
+    color: #434343;
+  }
+  .btn--3:hover {
+    animation: shadow-pulse 1000ms 1;
+    background-color: #20e2d7;
+    color: #434343;
+  }
+  .btn--4::before {
+    left: -520px;
+    right: 0;
+    width: 100%;
+    height: 150%;
+    transition: all 750ms ease;
+    transform: rotate(45deg);
+    box-shadow: 0 0 10px #20e2d7, 0 0 20px #20e2d7, 0 0 20px #20e2d7;
+  }
+  .btn--4:hover::before {
+    left: 520px;
+  }
+  
+  @keyframes shadow-pulse {
+    0% {
+      box-shadow: 0 0 0 0 rgba(32, 226, 215, 0.6);
+    }
+    100% {
+      box-shadow: 0 0 8px 16px rgba(32, 226, 215, 0);
+    }
+  }

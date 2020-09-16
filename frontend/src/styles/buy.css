@@ -1,0 +1,148 @@
+.mainContainer {
+    background-color: rgb(240, 240, 240);
+}
+
+.mainBackground {
+    background-position: center;
+    background-size: cover;
+    height: 615px;
+    opacity: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.divFilter {
+    width: 80%;
+    height: 40%; 
+    background-color: rgba(72,69,64,.7);
+    color: white;
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.divFilter * {
+    margin: 10px 0;
+    width: 100%;
+}
+
+.divFilter h1 {
+    text-align: center;
+    font-size: 5vh;
+}
+
+.buttonFilter {
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+    background-color: #0000006e;
+    border-radius: 20px;
+    padding: 0 10px;
+    margin-right: 55%;
+}
+
+.buttonFilter button {
+    width: 48%;
+    height: 4.3vh;
+    border-radius: 20px;
+    background-color: #b89d0477;
+    transition: 0.7s;
+    font-size: 2vh;
+}
+
+.buttonFilter button:hover {
+    background-color: #b89d04;
+    color: #000000;
+}
+
+.filter-Selects {
+    display: flex;
+    align-items: center;
+    width: 85%;
+    height: 20%;
+
+}
+
+.filter-Selects input {
+    height: 100%;
+    margin: 0;
+    border-radius: 0;
+}
+
+.option{
+    font-size: 15px;
+}
+
+.inputPrice {
+    height: 100%!important;
+    border-radius: 8px 0 0 8px!important;
+}
+
+.filter-Selects button {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    color: #000000;
+    background-color: #b89d04;
+    transition: all 0.7s;
+    margin: 0;
+    border-radius: 0 8px 8px 0;
+    text-align: center;
+}
+
+.filter-Selects button:hover {
+    background-color: #b89d04;
+}
+
+.filter-Selects div {
+    margin: 0 5px 0 10px;
+}
+
+.icono-Busqueda {
+    background-position: center;
+    background-size: cover;
+    width: 1vw;
+    height: 1vw;
+}
+
+.inputDate {
+    width: 28.3%;
+}
+
+.btn {
+    font-size: 1.2rem!important;
+    font-weight: bolder!important;
+}
+
+.form-control {
+    font-size: 1.2rem!important;
+    font-weight: bolder!important;
+}
+
+.conatinerBanners {
+    display: flex;
+    width: 80%;
+    margin: 5vh 10vw;
+    height: 20vh;
+    box-shadow: 1px 1px 10px rgba(72,69,64,.7);
+}
+
+.divBanner {
+    height: 100%;
+    width: 33.33%;
+}
+
+.card-House {
+    display: flex;
+    justify-content: center;
+    background-position: center;
+    border-radius: 10px;
+    background-size: cover; 
+    width: 35vw; 
+    min-width: 35vw;
+    height: 18vw;
+    margin-top: 2vh;
+}
+

@@ -1,0 +1,38 @@
+html * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+html{
+    font-size: 62.5%;
+   
+}
+
+body *{
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+body{
+    background-color:#6a93d3;
+}
+.formulario {
+    margin: 2%;
+    background-color: #C6BBBB;
+    opacity: 0.9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+   }
+   .formulario input{
+     margin: 2%;
+     width: 50vw;
+     text-align: center;
+   }
+   .formulario button{
+    margin: 2%;
+    width: 50vw;
+    text-align: center;
+  }
